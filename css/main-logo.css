@@ -1,0 +1,29 @@
+.tagline {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.main-section-links a {
+  text-transform: none !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .tagline {
+    font-size: 30px;
+  }
+  .main-section-links a {
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .main-section-links a {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .tagline {
+    font-size: 20px;
+  }
+}
